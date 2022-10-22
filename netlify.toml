@@ -7,4 +7,4 @@
   from = "/*"
   to = "/programming-list-page.html"
   force = true
-  status = 201
+  status = 200
