@@ -4,6 +4,6 @@
   status = 200
 
   [[redirects]]
-  from = "/index.html"
+  from = "/*"
   to = "/programming-list-page.html",
   status = 200
