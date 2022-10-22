@@ -6,6 +6,10 @@
     font-size: medium;
 }
 
-.toggle-text{
+.hide{
     display: none;
+}
+
+p{
+    font-family: montserrat;
 }

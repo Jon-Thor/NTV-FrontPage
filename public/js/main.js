@@ -8,17 +8,21 @@ const textToggle = document.getElementsByClassName("toggle-text");
 
 
 
-
 Array.prototype.forEach.call(alltoggle, function (x) {
-    x.addEventListener("click", (x) => {
-        if(window.getComputedStyle(textToggle.item(x)).display == "none"){
-        textToggle.item(x).style.display = "block"
-    }else{
-        textToggle.item(x).style.display = "none"
-    }})
 
-})
+    x.addEventListener("click", (e) => {
 
+        console.log('item', x);
+
+        console.log('e', e)
+
+        pTag = x.getElementsByClassName('text')[0];
+
+        pTag.classList.toggle('hide')
+
+
+
+})});
 
 
 
